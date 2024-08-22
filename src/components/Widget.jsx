@@ -1,9 +1,8 @@
-// src/components/Widget.js
 import React from 'react';
 import { Box, IconButton, Text, CircularProgress } from '@chakra-ui/react';
 import { CloseIcon } from '@chakra-ui/icons';
 import { useDispatch } from 'react-redux';
-import { removeWidget } from '../redux/dashboardSlice'; // Import the removeWidget action
+import { removeWidget } from '../redux/dashboardSlice'; 
 
 const Widget = ({ widget, category }) => {
   const dispatch = useDispatch();
@@ -46,12 +45,17 @@ const Widget = ({ widget, category }) => {
       </Text>
 
       {isProgressCategory ? (
-        <CircularProgress
-          value={widget.progress || 50}  // Default progress to 50 if not provided
-          size="100px"
-          thickness="8px"
-          color="teal"
-        />
+        <>
+          <CircularProgress
+            value={widget.progress || 50}  // Default progress to 50 if not provided
+            size="100px"
+            thickness="8px"
+            color="teal"
+          />
+          <Text mt={2} textAlign="center">
+            {widget.text}
+          </Text>
+        </>
       ) : (
         <Text mt={2} textAlign="center">
           {widget.text}

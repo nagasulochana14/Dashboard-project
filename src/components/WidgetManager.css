@@ -13,12 +13,4 @@ border-bottom: 1px solid gray;
 display: flex;
 gap: 8px;
 flex-direction: column;
-/* border: 2px solid #E2E8F0;
-border-color: #E2E8F0;  
-width: 200px;
-padding: 2px 8px;
-border-radius: 4px;  
-margin: 6px;
-color: #D53F8C;   */
-
 }

@@ -1,0 +1,27 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          { "id": 101, "name": "Widget 1", "text": "Random text for Widget 1"},
+          { "id": 102, "name": "Widget 2", "text": "Random text for Widget 2"}
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Network Security Dashboard",
+        "widgets": [
+          { "id": 201, "name": "Widget 3", "text": "Random text for Widget 3"},
+          { "id": 202, "name": "Widget 4", "text": "Random text for Widget 4"}
+        ]
+      }
+    ],
+    "widgets": [
+      { "id": 101, "name": "Widget 1", "text": "Random text for Widget 1" },
+      { "id": 102, "name": "Widget 2", "text": "Random text for Widget 2" },
+      { "id": 201, "name": "Widget 3", "text": "Random text for Widget 3" },
+      { "id": 202, "name": "Widget 4", "text": "Random text for Widget 4" }
+    ]
+  }
+  

@@ -1,8 +1,18 @@
-# React + Vite
+## CNAPP Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a customizable CNAPP (Cloud Native Application Protection Platform) Dashboard built with React and Chakra UI. The dashboard allows users to manage and visualize widgets dynamically, with the ability to add, remove, and personalize widgets for a more tailored user experience.
+        
 
-Currently, two official plugins are available:
+### Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dashboard.js**: The main component rendering the entire dashboard interface.
+- **Widget.js**: Represents individual widgets on the dashboard.
+- **Category.js**: Displays categories and their corresponding widgets.
+- **WidgetManager.js**: Manages the selection and addition of widgets via a modal.
+- **Modal.js**: A reusable modal component.
+- **MenuBar.js**: The menu bar containing the search functionality.
+
+### Run the application
+
+```bash
+npm run dev  
